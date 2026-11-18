@@ -1,0 +1,84 @@
+/* Accessible Gallery Stylesheet by Nguyen Kiet */
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #090d16;
+  color: #f1f5f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #0f172a, #0e7490);
+  padding: 2.6rem 1.5rem;
+  border-bottom: 3px solid #06b6d4;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.3rem;
+  color: #ffffff;
+}
+
+header p {
+  color: #a5f3fc;
+  margin: 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 32px auto;
+  padding: 0 1.5rem;
+}
+
+#image {
+  line-height: 420px;
+  height: 420px;
+  border: 4px solid #1e293b;
+  border-radius: 16px;
+  margin: 0 auto 32px auto;
+  background-color: #111827;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #f8fafc;
+  font-size: 1.35rem;
+  font-weight: 600;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+}
+
+.preview {
+  width: 135px;
+  height: 105px;
+  border: 3px solid #1e293b;
+  border-radius: 10px;
+  cursor: pointer;
+  object-fit: cover;
+  transition: all 0.25s ease;
+  outline: none;
+}
+
+.preview:hover,
+.preview:focus {
+  border-color: #06b6d4;
+  transform: translateY(-5px) scale(1.06);
+  box-shadow: 0 8px 20px rgba(6, 182, 212, 0.45);
+  outline: 3px solid #22d3ee;
+  outline-offset: 2px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 2.2rem;
+  background: #030712;
+  color: #64748b;
+  font-size: 0.95rem;
+}

@@ -1,0 +1,111 @@
+/* =========================================================
+   Advanced Styling with Responsive Design - Homework 1
+   Author: Nguyen Kiet (ixnyy19@gmail.com)
+   ========================================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  line-height: 1.65;
+}
+
+header {
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: #ffffff;
+  padding: 2.2rem 1.2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #0f172a;
+  padding: 12px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+nav a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 6px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+}
+
+main {
+  width: 92%;
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Tablet Breakpoint (768px) */
+@media screen and (min-width: 768px) {
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  header h1 {
+    font-size: 2.4rem;
+  }
+  
+  main {
+    padding: 32px;
+  }
+}
+
+/* Desktop Breakpoint (1024px) */
+@media screen and (min-width: 1024px) {
+  header h1 {
+    font-size: 2.8rem;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+  }
+}
+
+footer {
+  background: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 40px;
+}

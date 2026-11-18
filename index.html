@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyen Kiet | Web Design Portfolio &amp; Projects</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e1b4b);
+      color: #ffffff;
+      text-align: center;
+      padding: 3.5rem 1.5rem;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.15rem;
+      opacity: 0.9;
+    }
+    main {
+      max-width: 1040px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.8rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.8rem;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 20px -3px rgba(79, 70, 229, 0.12);
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      background: #e0e7ff;
+      color: var(--primary);
+      margin-bottom: 0.8rem;
+      width: fit-content;
+    }
+    .card h2 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+    }
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 1.25rem 0;
+      flex-grow: 1;
+    }
+    .btn {
+      display: inline-block;
+      text-align: center;
+      background: var(--primary);
+      color: #ffffff;
+      padding: 10px 18px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #3730a3;
+    }
+    footer {
+      background: #0f172a;
+      color: #94a3b8;
+      text-align: center;
+      padding: 2.5rem 1.5rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nguyen Kiet</h1>
+    <p>Web Development &amp; Design Projects | University of Michigan Specialization</p>
+  </header>
+
+  <main>
+    <div class="grid">
+      <!-- Course 2 HW1 -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 2: CSS3</span>
+          <h2>Homework 1: Styling Your First Page</h2>
+          <p>Multi-page website styled with external custom CSS, color palettes, typography, and inline-block navigation.</p>
+        </div>
+        <a class="btn" href="c2-hw1/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 2 HW2 -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 2: CSS3</span>
+          <h2>Homework 2: Advanced Selectors</h2>
+          <p>Implementation of pseudo-classes (:hover, :focus, :visited), nth-child alternations, and display structures.</p>
+        </div>
+        <a class="btn" href="c2-hw2/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 2 Final -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 2: CSS3</span>
+          <h2>Final Project: Multi-Page Site</h2>
+          <p>Comprehensive accessible travel guide showcasing custom CSS box models, navigation, and structured content.</p>
+        </div>
+        <a class="btn" href="c2-final/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 3 HW1 -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 3: JavaScript</span>
+          <h2>Interactive Photo Gallery</h2>
+          <p>Vanilla JavaScript event handling for mouse hover, image swapping, and dynamic caption rendering.</p>
+        </div>
+        <a class="btn" href="c3-gallery/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 3 Final -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 3: JavaScript</span>
+          <h2>Accessible Photo Gallery</h2>
+          <p>Fully accessible JavaScript gallery supporting keyboard navigation (tabindex, focus/blur) and onload events.</p>
+        </div>
+        <a class="btn" href="c3-final/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 4 HW1 -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 4: Responsive Design</span>
+          <h2>Responsive Stylesheet</h2>
+          <p>Mobile-first fluid layouts using media queries at 768px and 1024px breakpoints with viewport units.</p>
+        </div>
+        <a class="btn" href="c4-responsive/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 4 Final -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 4: Responsive Design</span>
+          <h2>Responsive Grid Photo Gallery</h2>
+          <p>Responsive CSS Grid photo gallery adapting gracefully across mobile, tablet, and widescreen desktop displays.</p>
+        </div>
+        <a class="btn" href="c4-final/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 5 Wireframes -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 5: Capstone</span>
+          <h2>Capstone Wireframes (Phase 2)</h2>
+          <p>Architectural design blueprints, color schemas, font hierarchies, and mobile/desktop layout wireframes.</p>
+        </div>
+        <a class="btn" href="c5-wireframes/">View Project &rarr;</a>
+      </div>
+
+      <!-- Course 5 Portfolio -->
+      <div class="card">
+        <div>
+          <span class="badge">Course 5: Capstone</span>
+          <h2>Full Portfolio Website</h2>
+          <p>Final capstone project featuring comprehensive showcase of skills, past works, responsive layout, and WCAG accessibility.</p>
+        </div>
+        <a class="btn" href="c5-portfolio/">View Project &rarr;</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nguyen Kiet. All projects developed for the Web Design for Everybody Specialization on Coursera.</p>
+  </footer>
+
+</body>
+</html>

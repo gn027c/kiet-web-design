@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p2_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11998e" />
+      <stop offset="100%" stop-color="#38ef7d" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="250" fill="url(#p2_bg)" />
+  <circle cx="120" cy="125" r="60" fill="#ffffff" opacity="0.85" />
+  <circle cx="280" cy="125" r="60" fill="#ffffff" opacity="0.85" />
+  <text x="120" y="132" font-family="sans-serif" font-size="18" font-weight="bold" fill="#11998e" text-anchor="middle">CDP 9222</text>
+  <text x="280" y="132" font-family="sans-serif" font-size="18" font-weight="bold" fill="#11998e" text-anchor="middle">Core Java</text>
+  <text x="200" y="220" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Autonomous Testing Framework</text>
+</svg>

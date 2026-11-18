@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d6efd" />
+      <stop offset="100%" stop-color="#0a58ca" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#bg_grad)" stroke="#ffffff" stroke-width="4" />
+  <circle cx="100" cy="75" r="35" fill="#f8f9fa" />
+  <path d="M40 165 C40 125, 70 120, 100 120 C130 120, 160 125, 160 165 Z" fill="#f8f9fa" />
+  <text x="100" y="82" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#0d6efd" text-anchor="middle">DT</text>
+</svg>

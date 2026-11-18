@@ -1,0 +1,115 @@
+/* =========================================================
+   Introduction to CSS3 - Homework 2: Advanced Selectors & Layout
+   Author: Nguyen Kiet (ixnyy19@gmail.com)
+   Theme: Indigo & Cyber Violet
+   ========================================================= */
+:root {
+  --primary: #6366f1;
+  --secondary: #8b5cf6;
+  --dark: #0f172a;
+  --light: #f8fafc;
+  --border: #e2e8f0;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  font-size: 110%;
+  background: #f1f5f9;
+  color: #1e293b;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(135deg, #4338ca 0%, #6366f1 100%);
+  color: #ffffff;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.3rem;
+  margin: 0 0 10px 0;
+  color: #ffffff;
+}
+
+nav {
+  background: #0f172a;
+  padding: 14px 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.8rem;
+}
+
+/* Pseudo-classes and advanced link styling */
+nav a:link {
+  color: #a5b4fc;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 7px 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+nav a:visited {
+  color: #e9d5ff;
+}
+
+nav a:hover, nav a:focus {
+  background-color: rgba(255, 255, 255, 0.16);
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #38bdf8;
+}
+
+main {
+  max-width: 980px;
+  margin: 30px auto;
+  padding: 36px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Alternating nth-child styling */
+div:nth-child(even) {
+  background-color: #f8fafc;
+  border-radius: 10px;
+  padding: 16px;
+  border-left: 4px solid var(--primary);
+}
+
+main div img {
+  border-radius: 10px;
+  margin: 12px;
+  border: 2px solid #e2e8f0;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+main div img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.18);
+}
+
+p {
+  line-height: 1.8;
+  color: #334155;
+  margin-bottom: 18px;
+}
+
+footer {
+  background: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 2.2rem;
+  margin-top: 50px;
+}

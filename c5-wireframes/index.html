@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone Design Wireframes | Nguyen Kiet</title>
+  <style>
+    :root {
+      --primary: #4338ca;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #cbd5e1;
+      --text: #0f172a;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #1e1b4b, #4338ca);
+      color: #ffffff;
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.4rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 1.5rem;
+    }
+    .spec-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+    .wireframe-box {
+      border: 2px dashed #94a3b8;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      background: #f1f5f9;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .color-swatch {
+      height: 60px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Capstone Portfolio Design Blueprint &amp; Wireframes</h1>
+    <p>Author: Nguyen Kiet | University of Michigan Capstone Project</p>
+  </header>
+
+  <main>
+    <section class="spec-card">
+      <h2>1. Project Vision &amp; Audience</h2>
+      <p>This capstone project showcases a full-featured personal portfolio for Nguyen Kiet, demonstrating mastery in semantic HTML5 markup, responsive CSS3 styling, JavaScript DOM interactivity, and WCAG accessibility standards.</p>
+    </section>
+
+    <section class="spec-card">
+      <h2>2. Design System &amp; Color Palette</h2>
+      <div class="grid">
+        <div>
+          <div class="color-swatch" style="background: #1e1b4b;"></div>
+          <strong>Deep Indigo (#1e1b4b)</strong>
+          <p>Primary headers &amp; branding accents</p>
+        </div>
+        <div>
+          <div class="color-swatch" style="background: #4338ca;"></div>
+          <strong>Royal Indigo (#4338ca)</strong>
+          <p>Buttons, active states &amp; highlights</p>
+        </div>
+        <div>
+          <div class="color-swatch" style="background: #f8fafc; border: 1px solid #cbd5e1;"></div>
+          <strong>Clean Slate (#f8fafc)</strong>
+          <p>Main content background</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="spec-card">
+      <h2>3. Wireframe Layouts (Mobile &amp; Desktop)</h2>
+      <div class="wireframe-box">
+        <h3>[Desktop Wireframe Blueprint]</h3>
+        <p>+-------------------------------------------------------------+<br>
+           | Header: Nguyen Kiet | Navigation (Home, Projects, Skills)  |<br>
+           +-------------------------------------------------------------+<br>
+           | Hero Section: Intro &amp; Call to Action                      |<br>
+           +-------------------------------------------------------------+<br>
+           | [Project 1 Card]  |  [Project 2 Card]  |  [Project 3 Card]  |<br>
+           +-------------------------------------------------------------+<br>
+           | Footer &amp; Contact Links                                      |<br>
+           +-------------------------------------------------------------+</p>
+      </div>
+
+      <div class="wireframe-box">
+        <h3>[Mobile Wireframe Blueprint]</h3>
+        <p>+-----------------------+<br>
+           | Header &amp; Nav Menu  |<br>
+           +-----------------------+<br>
+           | Hero Section          |<br>
+           +-----------------------+<br>
+           | Project Card 1        |<br>
+           +-----------------------+<br>
+           | Project Card 2        |<br>
+           +-----------------------+<br>
+           | Footer &amp; Contact   |<br>
+           +-----------------------+</p>
+      </div>
+    </section>
+  </main>
+
+  <footer style="text-align: center; padding: 2rem; background: #0f172a; color: #94a3b8;">
+    <p>&copy; 2026 Nguyen Kiet. Capstone Project Wireframes.</p>
+  </footer>
+
+</body>
+</html>
